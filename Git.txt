@@ -1,0 +1,10 @@
+¿Como crear un git?
+Para poder crear un git bash es necesario ante que nada bajar de la página la aplicación
+
+echo "# Diplo-C1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/AgusUbaldi01/Diplo-C1.git
+git push -u origin main
